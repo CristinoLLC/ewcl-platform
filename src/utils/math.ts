@@ -1,5 +1,3 @@
-import { pearsonR, rmse } from '@/utils/math';
-
 /**
  * Calculate Pearson correlation coefficient between two arrays
  */
@@ -26,7 +24,6 @@ export function pearsonR(x: number[], y: number[]): number {
  * Calculate Root Mean Square Error between two arrays
  */
 export function rmse(x: number[], y: number[]): number {
-    
   if (!x?.length || !y?.length || x.length !== y.length) return 0;
   
   const n = x.length;
