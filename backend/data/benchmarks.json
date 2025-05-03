@@ -1,0 +1,12 @@
+[
+  { "pdb_id": "1XQ8", "name": "α-Synuclein", "disprot": "DP00564" },
+  { "pdb_id": "1UBQ", "name": "Ubiquitin", "disprot": "DP00086" },
+  { "pdb_id": "2LMP", "name": "Calmodulin", "disprot": "DP00606" },
+  { "pdb_id": "2K39", "name": "p53 TAD", "disprot": "DP00003" },
+  { "pdb_id": "2K8P", "name": "β-Catenin", "disprot": "DP00009" },
+  { "pdb_id": "1G5M", "name": "Bcl-XL", "disprot": "DP00427" },
+  { "pdb_id": "2JZF", "name": "p27Kip1", "disprot": "DP00025" },
+  { "pdb_id": "1D3Z", "name": "Prion Protein", "disprot": "DP00001" },
+  { "pdb_id": "1CFC", "name": "Calbindin", "disprot": "DP00666" },
+  { "pdb_id": "1MPH", "name": "Myoglobin", "disprot": "DP00378" }
+]

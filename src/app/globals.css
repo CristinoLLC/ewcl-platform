@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Any other styles below this line */
+
+:root {
+  --background: #ffffff;
+  --foreground: #000000;
+  --font-sans: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* Global overrides */
+body {
+  /* Apply base styles for background, text, and font smoothing */
+  @apply antialiased text-gray-900 bg-gray-50; 
+}
+
+html.light {
+  background-color: #ffffff;
+  color: #1a202c; /* text-gray-900 */
+}
+
+body.bg-white {
+  background-color: #ffffff;
+}
+
+body.text-gray-900 {
+  color: #1a202c;
+}
+
+/* Custom Classes */
+.card-transition {
+  @apply transition duration-200 ease-in-out;
+}
+
+.input-focus {
+  @apply focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none;
+}
+
+/* Button styles */
+.btn {
+  @apply px-4 py-2 rounded-md transition-all duration-150;
+}
+
+.btn-primary {
+  @apply bg-blue-600 text-white hover:bg-blue-700;
+}
+
+.btn-secondary {
+  @apply bg-white border border-gray-300 text-gray-700 hover:bg-gray-50;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.8s ease-out forwards;
+}
